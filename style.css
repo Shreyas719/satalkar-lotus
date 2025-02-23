@@ -6,6 +6,9 @@
 body{
     overflow-x: hidden;
 }
+.text-c{
+    color: #0c616b;
+}
 .main{
     width: 100%;
     height: auto;
@@ -59,3 +62,17 @@ body{
         height: 250px;
     }
 }
+
+/* About Us  */
+.about-us{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.small-img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Our Services  */
