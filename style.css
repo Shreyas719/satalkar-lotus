@@ -6,9 +6,12 @@
 body{
     overflow-x: hidden;
 }
+
 .text-c{
     color: #0c616b;
 }
+
+
 .main{
     width: 100%;
     height: auto;
@@ -52,16 +55,47 @@ body{
     }
 }
 /* Slider  */
+
 .slider-area{
     width: 100%;
     float: left;
     height: auto;
 }
 @media(max-width:649px){
-    .carousel-item img{
-        height: 250px;
-    }
+  
+    .carousel-item img {
+        height: 250px; /* Mobile image height adjustment */
+        object-fit: contain; /* Ensure images fit within the container */
+      }
+    
+      .carousel-item {
+        height: 250px; 
+      }
 }
+
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow-x: hidden; 
+}
+  
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+  
+
+ 
+
 
 /* About Us  */
 .about-us{
@@ -75,11 +109,9 @@ body{
     height: 100px;
 }
 
+
 /* Our Services  */
-.card-box{
-    text-align: center;
-    border: 2px solid #0c616b !important;
-}
+
 
 .card .card-title:hover{
     color: #134e87;
