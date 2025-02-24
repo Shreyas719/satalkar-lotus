@@ -76,3 +76,11 @@ body{
 }
 
 /* Our Services  */
+.card-box{
+    text-align: center;
+    border: 2px solid #0c616b !important;
+}
+
+.card .card-title:hover{
+    color: #134e87;
+}
