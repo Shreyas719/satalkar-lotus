@@ -121,3 +121,35 @@ body{
 
 
 /* Cashless Facilities for Advance Gynecology & Laser Kidney Stone Surgeries */
+
+
+
+/* Footer  */
+
+.footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #dddddd;
+}
+.footer ul{
+    text-align: center;
+    
+}
+.footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+}
+.footer ul li i{
+    font-size: 20px;
+    margin: 9px 0px 0px 0px ;
+}
