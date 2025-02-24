@@ -64,12 +64,12 @@ body{
 @media(max-width:649px){
   
     .carousel-item img {
-        height: 300px; /* Mobile image height adjustment */
+        height: 250px; /* Mobile image height adjustment */
         object-fit: contain; /* Ensure images fit within the container */
       }
     
       .carousel-item {
-        height: 300px; 
+        height: 250px; 
       }
 }
 
@@ -93,9 +93,6 @@ body{
     object-fit: cover; 
 }
   
-
- 
-
 
 /* About Us  */
 .about-us{
